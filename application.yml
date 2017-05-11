@@ -1,0 +1,11 @@
+# Property used on app startup to check the config server status
+configserver:
+    name: Shengnian Registry config server
+    status: Connected to the Shengnian registry config server, using https://github.com/shengnian/shengnian-registry-config !
+
+# Default JWT secret token (to be changed in production!)
+shengnian:
+    security:
+        authentication:
+            jwt:
+                secret: my-secret-token-to-change-in-production
